@@ -1,0 +1,18 @@
+==> Main Difference between OS and SS??
+
+-- OS is a cruicial/loyal/Bada Beta of System Software Family
+-- System Software comprises of : OS, Language Transalators(Interpretor , Compiler , Assembler) , Linker , Loader , DeviceDrivers(USB drivers , display drivers) , BIOS and UEFI , Utlity Software(Winrar , Antivirus) , Firmware
+
+-- System software are used to manage the Computer System
+-- OS manages the system software as well as the whole Computer System :)
+
+-- System Software is Loaded by OS into Main memory when required
+-- OS is loaded by bootloader(which is loaded by BIOS) when a computer in switched on
+
+-- SS and OS both help in running and managing the Computer System
+
+-- SS provides essential tools and services to help developers to create and manage App S/w
+-- Os provides a platform and essential services like RM , MM , DM etc to the App S/W , System Software(including Utility S/W)
+
+-- System Software is optional [App S/W does not require SS to run but without SS they would not properly utlize the true power of a CS]
+-- OS is essential

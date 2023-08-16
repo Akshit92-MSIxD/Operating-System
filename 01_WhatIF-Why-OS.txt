@@ -1,0 +1,50 @@
+==> WHAT IF THERE IS NO OS ?
+
+-- Resource Exploitation (ek app hi pura system ke resources pe apna adhikar jama lega aur baaki apps ko chalne ka moka hi ni dega :( )
+  Note : Resources can be of two types => HR(CPU,Memory,Hard Disk,Input Devices etc) , SR(Language Translators,Drivers etc)
+
+-- Manual Resource Management would be done (Developers ko khud se RM ka code likhna padega App S/W ke liye) ==> Bulky apps!!!
+
+-- DRY principle violation (Dont Repeat Yourself) [RM aur MM ka code har app ke liye likhna padega ==> RM aur MM ka code repeat hoga :( ]
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+==> WHY OS IS NECESSARY IN A COMPUTER SYSTEM ? 
+
+-- (System Software Khaandan ka BADA BETA :)
+
+-- Provides a Platform/Interface to the developers/App S/W to execute without bothering about the complexity of CS.
+
+-- Resource Management [har app s/w ko efficiently resource allocate krega taaki wo bura na mane :)]
+
+-- No Bulky Apps [Os contains code for RM , MM , PM , Scheduling etc :)] [Mast malloc calloc use kro baaki memory kaha allocate hogi wo sab OS bhai sambhal lega :)]
+
+-- Provides Isolation and Protection to individual App S/w [ so that other App S/W do not read/write data from the memory allocated to other App S/W during execution]
+
+-- No Security Violation [ Isolation : each App S/W is allocated memory at different place in RAM and is unaware about the presence of other App S/W running in the RAM during execution :)]
+
+-- Memory Management
+
+-- Software Management [ App S/W , System S/W(OS ki Family :), Utility S/W]
+
+-- Provide Decent Security
+
+-- Abstraction [hides the underlying complexity of the Computer System]
+
+-- Communicator with Hardware
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+==> OS defination
+
+-- OS is a type of System Software which provides a interface between a user and computer hardware.
+-- OS communicates with H/W on behalf of a user/App-S/W
+
+
+
+
+   
