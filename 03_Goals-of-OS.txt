@@ -5,6 +5,6 @@
 --> No Process Starvation [Saari process jo RAM mai hai unhe  execute hone ka moka mile]
     ex of process starvation : agar P1 = while(true){....} then P1 will execute for infinite time and other processes will not get time to execute :(
 
---> Higher Job Execution [ Jo process higher priority rakhta to usko sabse pehle execute krdo baaki saari process ko execute mat kro]
+--> Higher Priority Job Execution [ Jo process higher priority rakhta to usko sabse pehle execute krdo baaki saari process ko execute mat kro]
     ex : Antivirus scan must be given highest priority!!!
     Note : if P1 is executing on CPU  and a higher priority Process P2 comes then P1 execution will be stopped immediately and CPU will be scheduled to P2 :)
