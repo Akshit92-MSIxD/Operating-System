@@ -1,4 +1,4 @@
-==> Goals of OS 
+==> GOALS OF OS :
 
 --> Max CPU Utilization [CPU ko idle nahi bethne dena , agar koi process P1 I/O krne chale gyi to P2 process ko execute kre CPU bus khali na bethe]
 
@@ -7,4 +7,4 @@
 
 --> Higher Job Execution [ Jo process higher priority rakhta to usko sabse pehle execute krdo baaki saari process ko execute mat kro]
     ex : Antivirus scan must be given highest priority!!!
-    Note : if P1 is executing on CPU  and a higher priority Process P2 comes then P1 execution will be stopped immediately and execution will be scheduled to P2 :)
+    Note : if P1 is executing on CPU  and a higher priority Process P2 comes then P1 execution will be stopped immediately and CPU will be scheduled to P2 :)
