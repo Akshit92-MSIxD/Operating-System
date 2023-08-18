@@ -1,0 +1,62 @@
+ ==> TYPES OF OS :
+
+
+--> SINGLE PROCESS OS (eg : MS-DOS)
+
+-- Single CPU used
+-- Baba Adam ke Jamane ka OS
+-- Only one Process will be executed at a time
+-- Jobs/Processes will be in queues for their execution :(
+
+Q) Does this OS fulfill goals of a ideal OS ??
+
+-- Max CPU Utilization (NO) [Reason : CPU will not execute P2 and P3 until P! comes back after completing its I/O :( ]
+-- Process Starvation (YES) [Reason : Execute one process at a time]
+-- Higher Priority Job Execution (NO) [Reason : execute one process at a time from the queue]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--> Batch OS (eg :  IBM's z/OS)
+
+-- Multiple Jobs in form of punch cards(represent data and instructions) are given to the operator.
+-- Then operator task is to sort the jobs depending upon the requirements and divide them into batches where similar types of jobs are put in same batch :)
+-- Batches will be in queues
+-- One batch is given at a time to Batch OS and it will schedule individual jobs of particular batch to CPU one by one.
+-- Less interaction between user and computer.
+
+Q) Does this OS fulfill goals of a ideal OS ??
+
+-- Max CPU Utilization (NO)  [Reason : CPU will not execute J2 and J3 until J1 comes back after completing its I/O :( ]
+-- Process Starvation (YES) [Reason : Execute individual jobs of a particular batch one by one at a time]
+-- Higher Priority Job Execution (NO) [Reason : execute one batch at a time from the queue]
+
+
+Q) What is Punch card aka IBM cards??
+
+-- Stiff Paper which contains some holes in it.
+-- Presence and absence of holes in punch cards represent the digital info(data and instructions)
+-- A punch card is scanned by a punch card machine/card reader and the digital info is extracted from that punch card by the machine and provide that info to the OS.
+
+
+Q) What was the pupose of using punch cards in first generation of computers??
+
+-- Punch cards were used for taking inputs in form of data and instructions [Now keyboard , mouses etc are used to take input].
+-- Punch cards were also used for output i.e storing the results of a calcualtion of a program.
+-- Punch cards were also used for data storage and programming purpose.
+-- Punch cards were a way to represent data and instructions for the computer to read and process :)
+
+
+Q) What replaced punch cards in future generation of computers  and Why ??
+
+-- CDs , DVDs , Flash drives , Floppy Disks , SSDs , Hard disk and Cloud Computing(latest)
+-- Kyuki Har wakt punch cards ko carry krke ghumna padta tha kyuki memory devices tab they ni
+-- Aaj ke same mai chote se memory card mai hum bohot sara data store kr sakte or ek place se dusri place carry kr sakte par punch cards bahut bade hote
+-- Aaklal to humare computers mai hi inbulit memory hard disk , SSDs hai jinme ham data aur instructions ko store kr sakte aur convenient and light weight hai punch card ke comparision mai :)
+-- Cloud Computing to aur badiya hai wese kyuki usme hum data instructions ko remotely access kr sakte kisi bhi Device/Computer system se ==> eliminate the need of storing data on physical memory device.
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
